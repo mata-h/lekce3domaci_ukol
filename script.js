@@ -10,8 +10,8 @@ Vaše stránka se zeptá uživatele teplotu ve stupních Fahrenheita a pomocí d
 vypíše její ekvivalent ve stupních Celsia.
 */
 
-let Fahrenheit = Number(prompt("Zadejte teplotu ve stupnich Fahrenheita"))
+let Fahrenheit = Number(prompt("Zadejte teplotu ve stupních Fahrenheita"))
 
 let Celsius = (5 * (Fahrenheit - 32)) / 9
 
-document.body.innerHTML += Fahrenheit + " stupnu Fahrenheita se rovna " + Celsius + " stupnu Celsia."
+document.body.innerHTML += Fahrenheit + " stupňů Fahrenheita se rovná " + Celsius + " stupňů Celsia."
